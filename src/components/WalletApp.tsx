@@ -4,9 +4,7 @@ import {TokenList} from './TokenList'
 import {useSessionContext} from '../context';
 import {ERC20Token} from '../web3/erc20';
 import TOKENS from "../web3/addresses.json";
-// import {addAccount} from "../web3/web3";
 
-// const MY_WALLET = String(process.env.REACT_APP_PK)
 export const WalletApp = () => {
     const {wallet, setWallet, setTokenList} = useSessionContext()
 
@@ -20,7 +18,6 @@ export const WalletApp = () => {
                     list.push(token)
                 }
                 setTokenList([...list])
-                // setWallet(addAccount(MY_WALLET))
             }
             init().catch(console.error)
         }
