@@ -12,11 +12,14 @@ npm i
 
 ## Set environments variables
 Get two different private keys from ganache and set them to .env file
-REACT_APP_PK=YOUR_FIRST_PRIVATE_KEY
-REACT_APP_MAIN_PK=YOUR_SECOND_PRIVATE_KEY
 
-REACT_APP_MAIN_PK - need to deploy ERC20 contracts
-REACT_APP_PK - need to add token balances to your wallet
+`REACT_APP_MAIN_PK`=YOUR_SECOND_PRIVATE_KEY
+
+`REACT_APP_PK`=YOUR_FIRST_PRIVATE_KEY
+
+`REACT_APP_MAIN_PK` - need to deploy ERC20 contracts
+
+`REACT_APP_PK` - need to add token balances to your wallet
 
 # Run application
 
