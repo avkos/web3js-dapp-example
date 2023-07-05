@@ -4,7 +4,6 @@ import {TokenList} from './TokenList'
 import {useSessionContext} from '../context';
 import {ERC20Token} from '../web3/erc20';
 import TOKENS from "../web3/addresses.json";
-
 export const WalletApp = () => {
     const {wallet, setWallet, setTokenList} = useSessionContext()
 

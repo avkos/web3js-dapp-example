@@ -17,7 +17,6 @@ export const InitWallet = () => {
     }, [pk, setWallet])
 
     return (
-
         <div className='Card'>
             <div className='CardHead'>
                 <h2>Init Wallet</h2>
