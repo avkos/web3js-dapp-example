@@ -1,5 +1,5 @@
 
-![web3js@4 example react app](gifs/app.gif).
+![web3js@4 example react app](gifs/app_send.gif).
 
 # Setup project:
 ## Install dependencies
